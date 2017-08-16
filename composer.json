@@ -36,6 +36,7 @@
         "pre-commit": "echo about to commit",
         "post-commit": "echo just committed",
         "post-package-install": "./cghooks add",
+        "post-package-update": "./cghooks update",
         "pre-package-uninstall": "./cghooks remove"
     }
 }
